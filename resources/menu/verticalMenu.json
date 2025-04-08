@@ -1,0 +1,236 @@
+{
+  "menu": [
+    {
+      "url": "/admin/dashboard",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "slug": "dashboard"
+
+    },
+
+    {
+      "name": "Manage Users",
+      "icon": "menu-icon tf-icons bx bxs-user",
+      "slug": "layouts",
+
+      "submenu": [
+        {
+          "url": "#",
+          "name": "Active Users",
+          "slug": "active-users"
+        },
+
+        {
+          "url": "#",
+          "name": "Inctive Users",
+          "slug": "inactive-users"
+        },
+
+        {
+          "url": "#",
+          "name": "Suspended Users",
+          "slug": "suspended-users"
+        },
+
+        {
+          "url": "#",
+          "name": "Banned Users",
+          "slug": "banned-users"
+        },
+        {
+          "url": "/admin/users/list",
+          "name": "All Users",
+          "slug": "layouts-fluid"
+        }
+      ]
+    },
+
+
+
+
+    {
+      "name": "Manage Plans",
+      "icon": "menu-icon tf-icons bx bxs-crown",
+      "slug": "layouts",
+
+      "submenu": [
+        {
+          "url": "#",
+          "name": "Wood Plan",
+          "slug": "wood-plan"
+        },
+        {
+          "url": "#",
+          "name": "Gold Plan",
+          "slug": "gold-plan"
+        },
+
+        {
+          "url": "#",
+          "name": "Premium",
+          "slug": "layouts-blank"
+        },
+
+        {
+          "url": "admin/plans/list",
+          "name": "All Plans",
+          "slug": "all-plans"
+        }
+
+        ]
+
+      },
+
+
+
+      {
+        "name": "Extended Plans",
+        "icon": "menu-icon tf-icons bx bx-crown",
+        "slug": "layouts",
+
+        "submenu": [
+          {
+            "url": "#",
+            "name": "Platinum Plan",
+            "slug": "Platinum-plan"
+          },
+          {
+            "url": "#",
+            "name": "Diamond Plan",
+            "slug": "Diamond-plan"
+          },
+
+          {
+            "url": "#",
+            "name": "Master Plan",
+            "slug": "master-plan"
+          },
+          {
+            "url": "#",
+            "name": "Grand Master Plan",
+            "slug": "grand-master-plan",
+            "target": "_blank"
+          },
+          {
+            "url": "#",
+            "name": "Elite Plan",
+            "slug": "elite-plan"
+          },
+          {
+            "url": "#",
+            "name": "Legendry Plan",
+            "slug": "legend-plan"
+          },
+
+          {
+            "url": "#",
+            "name": "Mythic Plan",
+            "slug": "master-plan"
+          }
+
+        ]
+
+      },
+
+    {
+      "url": "#",
+      "name": "Task",
+      "icon": "menu-icon tf-icons bx bx-task",
+      "slug": "task",
+      "submenu": [
+        {
+          "url": "#",
+          "name": " Videos",
+          "slug": "create-videos"
+        },
+        {
+          "url": "#",
+          "name": " Quiz",
+          "slug": "create-quiz"
+        },
+        {
+          "url": "#",
+          "name": " Site Visit",
+          "slug": "site-visit"
+        }
+      ]
+
+
+    },
+
+    {
+      "url": "/admin/codes/list",
+      "name": "Access Code",
+      "icon": "menu-icon tf-icons bx bx-key",
+      "slug": "access-code"
+    },
+
+
+    {
+      "url": "#",
+      "name": "Withdrawals",
+      "icon": "menu-icon tf-icons bx bx-money-withdraw",
+      "slug": "withdrawal",
+      "submenu": [
+        {
+          "url": "#",
+          "name": " Withdrawal Methods",
+          "slug": "withdrawal-method"
+        },
+        {
+          "url": "#",
+          "name": " Pending Withdrawals",
+          "slug": "pending-withdrawa"
+        },
+        {
+          "url": "#",
+          "name": " Approved Withdrawals",
+          "slug": "approved-withdrawal"
+        },
+
+        {
+          "url": "#",
+          "name": " Rejected Withdrawals",
+          "slug": "rejected-withdrawal"
+        },
+
+        {
+          "url": "#",
+          "name": " All Withdrawals",
+          "slug": "all-withdrawal"
+        }
+      ]
+
+
+    },
+
+
+    {
+      "name": "Complains",
+      "icon": "menu-icon tf-icons bx bxs-conversation",
+      "slug": "complain-s"
+
+    },
+
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons bx bxs-cog",
+      "slug": "setting-s",
+
+     "submenu": [
+        {
+          "url": "#",
+          "name": " Ads Settings",
+          "slug": "ads-settings"
+        },
+        {
+          "url": "#",
+          "name": "Account numbers",
+          "icon": "menu-icon tf-icons bx bx-log-out",
+          "slug": "acct-number",
+          "onclick": "event.preventDefault(); document.getElementById('logout-form').submit();"
+        }
+      ]
+    }
+  ]
+}
