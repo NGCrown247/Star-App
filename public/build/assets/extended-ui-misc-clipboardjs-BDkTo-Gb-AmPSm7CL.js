@@ -1,0 +1,1 @@
+(function(){const o=[].slice.call(document.querySelectorAll(".clipboard-btn"));ClipboardJS?o.map(function(c){new ClipboardJS(c).on("success",function(t){t.action=="copy"&&toastr.success("","Copied to Clipboard!!")})}):o.map(function(c){c.setAttribute("disabled",!0)})})();
